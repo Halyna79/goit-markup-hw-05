@@ -555,7 +555,6 @@ img {
     display: block;
     margin-left: 80px;
     min-width: 453px;
-    position: relative;
 
 }
 
@@ -705,14 +704,16 @@ img {
 
 .modal-icon-close:hover {
     background-color: #404BBF;
-    fill: #ffffff;
     border: none;
 }
 
 .modal-icon-close:focus {
     background-color: #404BBF;
-    fill: #ffffff;
     border: none;
+}
+
+.modal-icon-close:hover .modal-icon-close-black {
+    fill: #FFFFFF;
 }
 
 .modal-icon-close-black {
@@ -831,17 +832,15 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
-    align-items: center;
 }
 
 .modal-check-form {
+    display: inline-flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
