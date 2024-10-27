@@ -598,7 +598,6 @@ img {
     width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    margin-right: 24px;
 }
 
 
@@ -679,7 +678,7 @@ img {
 }
 
 .backdrob:not(.is-open) .modal {
-    transform: translate(-50%, 50%) scale(1.5);
+    transform: translate(-50%, -50%) scale(1.5);
 }
 
 .modal-icon-close {
