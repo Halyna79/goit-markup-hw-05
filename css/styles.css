@@ -570,7 +570,7 @@ img {
 }
 
 .footer-subscribe-form {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 24px;
@@ -601,20 +601,17 @@ img {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     margin-right: 24px;
 }
-.footer-subscribe-email::placeholder {
-    color: #ffffff;
-}
+
+
 
 .footer-subscribe-button {
     font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
     border-radius: 4px;
     cursor: pointer;
     color: #ffffff;
-    padding: 8px 24px;
     min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
